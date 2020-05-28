@@ -50,7 +50,8 @@ public class GoogleTest {
         driver.findElement(By.xpath("//input[@id='ctl00_mainContent_view_date2']")).click();
         driver.findElement(By.xpath("//a[text()='29']")).click();
         driver.findElement(By.xpath("//input[@id='ctl00_mainContent_btn_FindFlights']")).click();
-        driver.quit();
+        driver.findElement(By.xpath("//span[@class='trip-detrails-sector']")).isDisplayed();
+       // driver.quit();
 
     }
 }
