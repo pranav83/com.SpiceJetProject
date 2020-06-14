@@ -45,7 +45,7 @@ public class Auto_Suggestive2 {
 //         Thread.sleep(2000);
 //         departure.sendKeys(Keys.ENTER);
 
-        // driver.quit();
+         driver.quit();
 
 
     }
